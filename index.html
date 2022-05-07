@@ -4,7 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 <body>
@@ -12,23 +16,115 @@
   <div class="container">
     <section class="sidebar">
 
-      <h1>Dashboard</h1>
+      <div class="dashboard">
+        <img src="assets/images/view-dashboard.svg" alt="main logo">
+        <h1>Dashboard</h1>
+      </div>
       <nav class="nav">
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Profile</a></li>
-          <li><a href="">Messages</a></li>
-          <li><a href="">History</a></li>
-          <li><a href="">Tasks</a></li>
-          <li><a href="">Communities</a></li>
+        <ul class="main-commands">
+          <li>
+          <a href="#">
+            <img src="assets/images/home.svg" alt="home icon">
+            <span>Home</span>
+          </a>
+        </li>
+          <li>
+          <a href="#">
+            <img src="assets/images/account.svg" alt="profile icon">
+            <span>Profile</span>
+          </a>
+        </li>
+          <li>
+          <a href="#">
+            <img src="assets/images/message-reply.svg" alt="messages icon">
+            <span>Messages</span>
+          </a>
+        </li>
+          <li>
+          <a href="#">
+            <img src="assets/images/history.svg" alt="history icon">
+            <span>History</span>
+          </a>
+        </li>
+          <li>
+          <a href="#">
+            <img src="assets/images/calendar-check.svg" alt="tasks icon">
+            <span>Tasks</span>
+          </a>
+        </li>
+          <li>
+          <a href="#">
+            <img src="assets/images/account-group.svg" alt="communities icon">
+            <span>Communities</span>
+          </a>
+        </li>
+
         </ul>
 
-        <ul>
-          <li><a href="">Settings</a></li>
-          <li><a href="">Support</a></li>
-          <li><a href="">Privacy</a></li>
+        <ul class="sub-commands">
+          <li>
+            <a href="">
+              <img src="assets/images/cog.svg" alt="cog icon">
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="assets/images/help-box.svg" alt="cog icon">
+              <span>Support</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="assets/images/lock.svg" alt="cog icon">
+              <span>Privacy</span>
+            </a>
+          </li>
         </ul>
       </nav>
+    </section>
+
+
+    <section class="hero">
+      <header class="header">
+        <section class="searchbar">
+          <img src="assets/images/magnify.svg" alt="magnifying glass icon">
+          <input type="text">
+        </section>
+        <section class="profile">
+          <img src="assets/images/bell-ring-outline.svg" class="bell" alt="bell icon">
+          <img src="assets/images/profile-pic-dashboard.svg" class="profile-pic" alt="profile picture">
+          <h3 class="user">John Smith</h3>
+        </section>
+        <section class="greeting">
+          <img src="assets/images/profile-pic-dashboard.svg" class="greeting-pic"  alt="profile picture">
+          <h4>Hi there, </h4>
+          <h2>John Smith (@jsmith)</h2>
+        </section>
+        <section class="options">
+          <button type="button" class="button">New</button>
+          <button type="button" class="button">Upload</button>
+          <button type="button" class="button">Share</button>
+        </section>
+      </header>
+      
+      <section class="main-content">
+        <section class="projects">
+          <h4>Your Projects</h4>
+          <div class="project">
+            <h4>Super Cool Project</h4>
+            <p>Sed tempus ut lacus ut scelerisquer. Suspendisse sollicitudin
+              nibh erat, id facilisis felis accumsan nec.
+            </p>
+            <span>icon</span>
+            <span>icon</span>
+            <span>icon</span>
+          </div>
+        </section>
+        <section class="updates">
+
+        </section>
+      </section>
     </section>
   
 
