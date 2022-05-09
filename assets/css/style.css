@@ -108,7 +108,13 @@ img {
 .profile-pic {
   width: 55px;
   border-radius: 50%;
+  transition: transform 200ms, box-shadow 200ms;
 }
+.profile-pic:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 5px 7px rgba(0,0,0,0.2);
+}
+
 .username {
   justify-self: start;
 }
@@ -199,6 +205,7 @@ img {
 
 .project {
   border-left: 9px solid #f4a261;
+  padding: 3rem 2rem;
   display: flex;
   flex-direction:column;
   justify-content: space-between;
