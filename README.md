@@ -1,5 +1,5 @@
 # Admin Dashboard
-
+This Sample Admin Dashboard uses mostly CSS Grid and some Flexbox to attain a modern design. It includes sidebar navigation, a header with profile information, a section for projects, a section for recent announcements, and a trending section. This dashboard is display-only and does not actually function.
 
 **Link to project:** https://johnsebastian3.github.io/admin-dashboard/
 
